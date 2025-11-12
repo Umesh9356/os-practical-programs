@@ -7,7 +7,7 @@ SSTF:- */
 void SSTF(int requests[], int num_requests, int initial_head) { 
 int completed[MAX_REQUESTS] = {0}; 
 int current_head = initial_head; 
-int total_distance = 0; 
+int total_distance = 0;
 printf("\n\n Seek Sequence: "); 
 for (int i = 0; i < num_requests; i++) { 
 int min_index = -1; 

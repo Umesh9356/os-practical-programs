@@ -50,7 +50,7 @@ int main() {
         args[0] = "./displayrev"; 
         for (int i = 0; i < n; i++) { 
             char *num = malloc(10); 
-            sprintf(num, "%d", arr[i]); 
+            printf(num, "%d", arr[i]); 
             args[i + 1] = num; 
         } 
         args[n + 1] = NULL; 
